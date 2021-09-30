@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  text-align: center;
+  padding: 35px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.43);
+  border-radius: 15px;
+  height: 500px;
+  margin: 30px 2em;
+  padding-left: 35px;
+  padding-right: 35px;
+  flex: 0 1 22%;
+}
+img {
+  border-radius: 40px;
+  padding: 20px;
+}
+body {
+  background-image: url("https://i.pinimg.com/originals/d5/09/99/d5099970a5d4da9cbfd06e0a895caf93.jpg");
+}
