@@ -20,13 +20,13 @@ img {
   border-radius: 30px;
   padding: 25px;
 }
-body {
-  background-image: url("https://i.pinimg.com/originals/d5/09/99/d5099970a5d4da9cbfd06e0a895caf93.jpg");
-}
 h1 {
   font-family: "Rampart One", cursive;
 }
 p {
   font-size: 20px;
   font-weight: bold;
+}
+body {
+  background-image: linear-gradient(#3a88fe, rgb(144, 43, 145), hotpink);
 }
