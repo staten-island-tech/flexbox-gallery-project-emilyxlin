@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 .container {
   display: flex;
@@ -29,7 +30,11 @@ p {
   font-weight: bold;
 }
 body {
-  background-image: linear-gradient(#3a88fe, rgb(144, 43, 145), hotpink);
+  background-image: linear-gradient(
+    #094092,
+    rgb(165, 0, 168),
+    rgb(155, 48, 102)
+  );
 }
 
 .box-shadow {
@@ -44,4 +49,14 @@ body {
 .blur img:hover {
   -webkit-filter: blur(5px);
   transition: 1s ease;
+}
+.header {
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  padding: 35px;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 0 0 7px rgb(192, 185, 185), 0 0 10px rgb(214, 205, 205),
+    0 0 21px rgb(209, 189, 189), 0 0 42px rgb(55, 119, 98), 0 0 82px #0fa,
+    0 0 92px rgb(134, 151, 145), 0 0 102px rgb(238, 158, 158), 0 0 151px #0fa;
 }
