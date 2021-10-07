@@ -31,3 +31,17 @@ p {
 body {
   background-image: linear-gradient(#3a88fe, rgb(144, 43, 145), hotpink);
 }
+
+.box-shadow {
+  transition: box-shadow 0.2s;
+}
+.box-shadow:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
+}
+.blur img {
+  transition: 1s ease;
+}
+.blur img:hover {
+  -webkit-filter: blur(5px);
+  transition: 1s ease;
+}
