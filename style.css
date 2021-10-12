@@ -31,9 +31,9 @@ p {
 }
 body {
   background-image: linear-gradient(
-    #094092,
+    #133b77,
     rgb(165, 0, 168),
-    rgb(155, 48, 102)
+    rgb(243, 102, 172)
   );
 }
 
@@ -110,3 +110,4 @@ body {
   transform: rotateZ(-10deg);
   transition: 1s ease;
   }
+
