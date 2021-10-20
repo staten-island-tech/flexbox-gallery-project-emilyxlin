@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
+html, body, *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -8,13 +14,13 @@
 }
 .card {
   text-align: center;
-  padding: 5rem;
+  padding: 4rem;
   box-shadow: 0 2rem 2rem 0 rgba(0, 0, 0, 0.7);
   border-radius: 2.2rem;
-  height: 30rem;
+  height: 41rem;
   margin: 2.5rem 2.5rem;
-  padding-left: 2.2rem;
-  padding-right: 2.2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   flex: 0 1 22%;
 }
 img {
@@ -24,8 +30,10 @@ img {
 h2 {
   font-family: "Rampart One", cursive;
   font-size: 2.2rem;
+  padding: 1rem;
 }
 h3 {
+  padding: 2rem;
   font-size: 1.7rem;
   font-weight: bold;
 }
@@ -61,8 +69,8 @@ body {
 .header {
   text-align: center;
   font-family: "Press Start 2P", cursive;
-  padding: 3rem;
-  font-size: 3.8rem;
+  padding: 5rem;
+  font-size: 3.7rem;
   color: #fff;
   text-shadow: 0 0 1rem rgb(192, 185, 185), 0 0 1.5rem rgb(214, 205, 205),
     0 0 2rem rgb(209, 189, 189), 0 0 3rem rgb(55, 119, 98), 0 0 4rem #0fa,
