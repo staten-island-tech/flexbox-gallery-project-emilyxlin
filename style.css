@@ -57,7 +57,7 @@ body {
   transition: box-shadow 0.2s;
 }
 .box-shadow:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.7);
 }
 .blur img {
   transition: 1s ease;
