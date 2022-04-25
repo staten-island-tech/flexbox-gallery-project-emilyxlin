@@ -72,9 +72,15 @@ body {
   padding: 5rem;
   font-size: 3.7rem;
   color: #fff;
-  text-shadow: 0 0 1rem rgb(192, 185, 185), 0 0 1.5rem rgb(214, 205, 205),
-    0 0 2rem rgb(209, 189, 189), 0 0 3rem rgb(55, 119, 98), 0 0 4rem #0fa,
-    0 0 5rem rgb(134, 151, 145), 0 0 5rem rgb(238, 158, 158), 0 0 6rem #0fa;
+  text-shadow: 
+  0 0 1rem rgb(192, 185, 185), 
+  0 0 1.5rem rgb(214, 205, 205),
+  0 0 2rem rgb(209, 189, 189), 
+  0 0 3rem rgb(55, 119, 98), 
+  0 0 4rem #0fa,
+  0 0 5rem rgb(134, 151, 145), 
+  0 0 5rem rgb(238, 158, 158), 
+  0 0 6rem #0fa;
 }
 .swap {
   position: relative;
